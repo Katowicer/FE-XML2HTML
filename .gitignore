@@ -1,2 +1,7 @@
 .devbox
 devbox.lock
+
+# Folders used for local testing 
+HTML
+PDF
+XML
