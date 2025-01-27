@@ -18,4 +18,7 @@ devbox shell
 code .
 ```
 
+## Testing
+See branch [0002-SHELLTEST](https://github.com/Katowicer/FE-XML2HTML/tree/0002-SHELLTEST) and setup the testing environment via the [.env](https://github.com/Katowicer/FE-XML2HTML/blob/0002-SHELLTEST/.env) file
+
 [![Built with Devbox](https://www.jetify.com/img/devbox/shield_moon.svg)](https://www.jetify.com/devbox/docs/contributor-quickstart/)
