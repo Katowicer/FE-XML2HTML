@@ -4,9 +4,14 @@
     "libxslt@1.1.42",
     "wkhtmltopdf@ 0.12.6.1-3"
   ],
+  "env_from": "./.env",
   "shell": {
     "init_hook": [
       "chmod +x ./xml2html.sh"
-    ]
+    ],
+    "scripts": {
+      "emesse": "./xml2html.sh -s $STYLE -l $LOG_FILE -e $ERROR_FILE -x $XML_DIR_EMESSE -h $HTML_DIR_EMESSE -p $PDF_DIR_EMESSE",
+      "ricevute": "./xml2html.sh -s $STYLE -l $LOG_FILE -e $ERROR_FILE -x $XML_DIR_RICEVUTE -h $HTML_DIR -p $PDF_DIR_RICEVUTE"
+    }
   }
 }
