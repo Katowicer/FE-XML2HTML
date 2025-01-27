@@ -3,5 +3,10 @@
   "packages": [
     "libxslt@1.1.42",
     "wkhtmltopdf@ 0.12.6.1-3"
-  ]
+  ],
+  "shell": {
+    "init_hook": [
+      "chmod +x ./xml2html.sh"
+    ]
+  }
 }
