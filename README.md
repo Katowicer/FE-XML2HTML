@@ -2,6 +2,8 @@
 
 Easily convert Fatture Elettroniche in XML format to HTML and PDF formats.
 
+![](./assets/preview.gif)
+
 ## Testing
 See branch [0002-SHELLTEST](https://github.com/Katowicer/FE-XML2HTML/tree/0002-SHELLTEST) and setup the testing environment via the [.env](https://github.com/Katowicer/FE-XML2HTML/blob/0002-SHELLTEST/.env) file
 
